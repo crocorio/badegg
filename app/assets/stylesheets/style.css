@@ -1,5 +1,5 @@
 
-
+/*index page classes*/
 
 .hero {
   position: relative;
@@ -35,4 +35,10 @@
   padding-left: 6px;
   font-size: 18px;
   color: white;
+}
+
+/* staff login classes*/
+
+.user_warning {
+color: red;
 }
