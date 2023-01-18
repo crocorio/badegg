@@ -1,0 +1,38 @@
+
+
+
+.hero {
+  position: relative;
+  width: 1366px;
+  height: 700px;
+}
+
+.hero-image {
+  width: 1298px;
+  height: 100%;
+  object-fit: cover;
+  opacity: 50%;
+}
+
+.hero-items {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: calc(20% - 35px);
+  width: 100%;
+  padding: 0 60px;
+}
+
+.hero-text__main {
+  font-size: 70px;
+  font-weight: 600;
+  color: black;
+  
+}
+
+.hero-text__sub {
+  margin-top: 10px;
+  padding-left: 6px;
+  font-size: 18px;
+  color: white;
+}
