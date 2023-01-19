@@ -33,7 +33,7 @@ All logos and t shirt designs are designed by myself, and do not conflict with c
 | Column          | Type   | Options                           |
 | ----------------| ------ | ------------                |
 | name            | string | null: false                          |
-| size_id.         | integer   | null: false                      |  
+| size_id         | integer   | null: false                      |  
 | shipping_cost_id| integer| null: false                  |
 | prefecture_id   | integer| null: false                     |
 | shipping_date_id| integer| null: false                 |

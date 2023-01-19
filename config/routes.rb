@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
   devise_for :users
-  #get 'welcome/index'
-  get 'welcome/about'
+  #get 'welcomes/index'
+  get 'welcomes/about'
 
-  root "welcome#index"
+  root "welcomes#index"
+
+  resources :items 
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
