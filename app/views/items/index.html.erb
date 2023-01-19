@@ -1,1 +1,76 @@
-<h1>hello there</h1>
+<%# 画面上部の「人生を変えるフリマアプリ」帯部分 %>
+<div class='main'>
+  <div class='title-contents'>
+    <h2 class='service-title'>
+      Merch Merch Baby
+    </h2>
+    <p class='service-explain'>
+      Who doesn't like a cool T shirt?
+    </p>
+    <p class='service-explain'>
+      Be a part of the team 
+    </p>
+    
+  </div>
+  <%# /画面上部の「人生を変えるフリマアプリ」帯部分  %>
+
+  <%# 商品一覧 %>
+  <div class='item-contents'>
+    <h2 class='title'>Offical Team merchandise</h2>
+    <div class="subtitle" >
+      Our newest items
+    </div>
+    <ul class='item-lists'>
+
+      <%# 商品のインスタンス変数になにか入っている場合、中身のすべてを展開できるようにしましょう %>
+      <li class='list'>
+        <%= link_to "#" do %>
+        <div class='item-img-content'>
+          <%= image_tag "item-sample.png", class: "item-img" %>
+
+          <%# 商品が売れていればsold outを表示しましょう %>
+          <div class='sold-out'>
+            <span>Sold Out!!</span>
+          </div>
+          <%# //商品が売れていればsold outを表示しましょう %>
+
+        </div>
+        <div class='item-info'>
+          <h3 class='item-name'>
+            <%= "商品名" %>
+          </h3>
+          <div class='item-price'>
+            <span><%= "販売価格" %>円<br><%= '配送料負担' %></span>
+            
+          </div>
+        </div>
+        <% end %>
+      </li>
+      <%# //商品のインスタンス変数になにか入っている場合、中身のすべてを展開できるようにしましょう %>
+
+      <%# 商品がない場合は以下のダミー商品が表示されるようにしましょう %>
+      <%# 商品がある場合は表示されないようにしましょう %>
+      <li class='list'>
+        <%= link_to '#' do %>
+        <%= image_tag "offtshirt.png", class: "item-img" %>
+        <div class='item-info'>
+          <h3 class='item-name'>
+            The official Team T shirt 
+          </h3>
+          <div class='item-price'>
+            <span>3000 yen<br>(Including tax)</span>
+            
+          </div>
+        </div>
+        <% end %>
+      </li>
+      <%# //商品がある場合は表示されないようにしましょう %>
+      <%# //商品がない場合は以下のダミー商品が表示されるようにしましょう %>
+    </ul>
+  </div>
+  <%# /商品一覧 %>
+</div>
+<%= link_to('#', class: 'purchase-btn') do %>
+  <span class='purchase-btn-text'>Add an item</span>
+  <%= image_tag 'icon_egg.png' , size: '185x50' ,class: "purchase-btn-icon" %>
+<% end %>

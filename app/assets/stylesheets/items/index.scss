@@ -8,8 +8,8 @@ a {
 
 /* 画面上部の「人生を変えるフリマアプリ」帯部分 */
 .title-contents {
-  width: 100vw;
-  background-image: image-url('furima-header01.png');
+  width: 90vw;
+  background-image: image-url('badegg-header01.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -17,18 +17,20 @@ a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 5vh 15vw;
+  padding: 10vh 15vw;
   color: #fff;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 }
 
 .service-title {
   font-size: 8vh;
+  color: black;
 }
 
 .service-explain {
   font-size: 2.5vh;
   line-height: 40px;
+  color: black;
 }
 
 .store-btn {
@@ -36,14 +38,7 @@ a {
   margin-top: 24px;
 }
 
-.apple-btn {
-  margin-right: 1vw;
-  height: 9vh;
-}
 
-.google-btn {
-  height: 9vh;
-}
 
 /* //画面上部の「人生を変えるフリマアプリ」帯部分 */
 
@@ -152,14 +147,7 @@ a {
   margin-top: 24px;
 }
 
-.apple-btn {
-  margin-right: 1vw;
-  height: 9vh;
-}
 
-.google-btn {
-  height: 9vh;
-}
 
 /* //画面中央の「会員数日本一位」帯部分 */
 
@@ -233,7 +221,7 @@ a {
   font-size: 3vh;
   margin: 1vh 0;
   text-decoration: none;
-  color: #3ccace;
+  color: green;
   font-weight: bold;
 }
 
