@@ -37,9 +37,7 @@ ActiveRecord::Schema.define(version: 2023_01_18_073717) do
     t.bigint "user_id", null: false
     t.string "name", null: false
     t.text "description", null: false
-    t.integer "size_id", null: false
     t.integer "shipping_cost_id", null: false
-    t.integer "prefecture_id", null: false
     t.integer "shipping_date_id", null: false
     t.integer "price", null: false
     t.datetime "created_at", precision: 6, null: false

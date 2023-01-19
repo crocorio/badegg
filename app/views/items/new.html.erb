@@ -34,7 +34,7 @@
           Description of merch
           <span class="indispensable">Required</span>
         </div>
-        <%= f.text_area :descriptio, class:"items-text", id:"item-info", placeholder:"Please be sure that the description includes what is special about the merchandise, and how it is different from other products." ,rows:"7" ,maxlength:"1000" %>
+        <%= f.text_area :description, class:"items-text", id:"item-info", placeholder:"Please be sure that the description includes what is special about the merchandise, and how it is different from other products." ,rows:"7" ,maxlength:"1000" %>
       </div>
     </div>
     <%# /商品名と商品説明 %>
@@ -43,7 +43,7 @@
     <div class="items-detail">
       <div class="weight-bold-text">Details of the merch</div>
       <div class="form">
-        <div class="weight-bold-text">
+        <%# <div class="weight-bold-text">
           Shirt size 
           <span class="indispensable">Required</span>
         </div>
