@@ -42,3 +42,14 @@
 .user_warning {
 color: red;
 }
+
+/**/
+
+/*workouts*/
+
+.workoutdesu {
+  justify-content: center;
+  margin-left: 300px;
+  margin-top: 100px;
+  font-size: large;
+}

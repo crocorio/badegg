@@ -6,6 +6,8 @@ On this website, users can view the specifics of what the team is about, such as
 By viewing this website, users searching for a new fitness community to take part in can determine if this team is best for them.
 The website also serves as an online store, where users can purchase t shirts. 
 
+
+
 All logos and t shirt designs are designed by myself, and do not conflict with copyrights.  
 
 
@@ -33,9 +35,7 @@ All logos and t shirt designs are designed by myself, and do not conflict with c
 | Column          | Type   | Options                           |
 | ----------------| ------ | ------------                |
 | name            | string | null: false                          |
-| size_id         | integer   | null: false                      |  
 | shipping_cost_id| integer| null: false                  |
-| prefecture_id   | integer| null: false                     |
 | shipping_date_id| integer| null: false                 |
 | price           | integer| null: false                           |
 | user            | references| null: false, foreign_key: true |
