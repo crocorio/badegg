@@ -33,4 +33,5 @@ class OrdersController < ApplicationController
                                               :city, :block, :building, :phone_number, :email).merge(user_id: current_user.id, item_id: params[:item_id], token: params[:token])
   end
 
+  
 end
