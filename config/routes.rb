@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get "welcomes/neck"
   get "welcomes/curl"
   get "welcomes/dips"
+  get "orders/bought"
 
   
 

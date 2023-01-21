@@ -12,12 +12,15 @@ class OrdersController < ApplicationController
     if @order_destination.valid?
       pay_item
       @order_destination.save
-      redirect_to root_path
+      redirect_to orders_bought_path
     else
       render :index
     end
   end
 
+  def bought 
+
+  end 
 
   private
 
