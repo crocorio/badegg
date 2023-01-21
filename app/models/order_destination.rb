@@ -1,9 +1,9 @@
 class OrderDestination
   include ActiveModel::Model
-  attr_accessor :user_id, :item_id, :postal_code, :prefecture_id, :city, :block, :building, :phone_number, :size, :email, :order_id, :token
+  attr_accessor  :item_id, :postal_code, :prefecture_id, :city, :block, :building, :phone_number, :size_id, :email, :order_id, :token
 
   with_options presence: true do
-    validates :user_id
+    
     validates :item_id
 
     validates :city
@@ -23,7 +23,7 @@ class OrderDestination
   validate :building
 
   def save
-    order = Order.create(user_id: user_id, item_id: item_id)
+    order = Order.create( item_id: item_id)
 
     Destination.create(postal_code: postal_code, prefecture_id: prefecture_id, city: city, block: block, building: building,
                        phone_number: phone_number, email: email, size_id: size_id, order_id: order.id)
