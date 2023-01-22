@@ -69,3 +69,71 @@ color: red;
   font-size: 16px;
   resize: none;
 }
+
+/**/
+
+/*about us*/
+
+.page-title {
+  padding: 50px 0 150px;
+}
+
+.page-title__main {
+  font-size: 64px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.page-title__sub {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+
+.thestaff {
+  width: 1366px;
+}
+
+.service-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px 180px;
+}
+
+.service-item {
+  width: 350px;
+  height: 420px;
+}
+
+.service-image {
+  width: 350px;
+  height: 275px;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
+}
+
+.service-text {
+  width: 100%;
+  height: 120px;
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+  background-color: #DADADA;
+}
+
+.service-text__main {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.service-text__sub {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 17px
+}
