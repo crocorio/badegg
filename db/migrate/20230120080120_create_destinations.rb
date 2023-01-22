@@ -9,6 +9,7 @@ class CreateDestinations < ActiveRecord::Migration[6.0]
       t.string   :email,              null: false
       t.string   :phone_number,       null: false
       t.integer  :size_id,            null: false
+      t.string   :name,               null: false
       t.references :order,            null: false, foreign_key: true 
       t.timestamps
     end

@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 2023_01_20_080120) do
     t.string "email", null: false
     t.string "phone_number", null: false
     t.integer "size_id", null: false
+    t.string "name", null: false
     t.bigint "order_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

@@ -1,6 +1,6 @@
 class OrderDestination
   include ActiveModel::Model
-  attr_accessor  :item_id, :postal_code, :prefecture_id, :city, :block, :building, :phone_number, :size_id, :email, :order_id, :token
+  attr_accessor  :item_id, :postal_code, :prefecture_id, :city, :block, :building, :phone_number, :size_id, :email, :name, :order_id, :token
 
   with_options presence: true do
     
@@ -9,6 +9,7 @@ class OrderDestination
     validates :city
     validates :block
     validates :email
+    validates :name 
 
     validates :phone_number, format: { with: /\A\d{10,11}\z/, message: 'が無効です。' }
 
@@ -26,7 +27,7 @@ class OrderDestination
     order = Order.create( item_id: item_id)
 
     Destination.create(postal_code: postal_code, prefecture_id: prefecture_id, city: city, block: block, building: building,
-                       phone_number: phone_number, email: email, size_id: size_id, order_id: order.id)
+                       phone_number: phone_number, email: email, size_id: size_id, name: name, order_id: order.id)
   end
 
 end 
