@@ -19,6 +19,9 @@ This app/website is currently in the process of being created, and several funct
 
 Because I would like the foundation of the website to be created first, these functions are not prioritized at the moment.  
 
+This website is created in English, because I wish to utilize my English skills in the field. (Working in an English environment, abroad, etc.)
+
+
 JP: 
 Bad Egg Training Teamへようこそ！
 
@@ -34,6 +37,9 @@ Bad Egg Training Teamへようこそ！
 3. Renderの挙動により、本番環境で投稿された画像は時間が経過すると消える仕様になっております。S3を実装することによって、画像が消える問題を解消できます。
 
 ウェブサイトの土台を先に完成させるため、以上の実装は優先していません。
+
+このウェブサイトは英語で制作されております。自分の英語力を現場で活かしたいと思うためです（英語環境で働く、海外で働くなど）  
+
 
 
 
@@ -154,3 +160,26 @@ destinationテーブルには商品をゲストへお届けするための項目
 ### Association
 
 - belongs_to : order
+
+
+
+
+## About us page 
+
+The about us page serves as the staff introduction page. On this page, guests can view the various trainers the team has, and what their attributes are. This helps guests who are searching for a fitness community to determine if the team provides what they are looking for.
+
+JP:
+About usページでは、スタッフの紹介を見ることができます。
+スタッフそれぞれのバックグランドを紹介するためのページです。
+どのようなトレーナーがいて、ゲストが求めているものを提供できるかを判断することができます。
+
+## Workouts page 
+
+The workouts page has listed some unique exercises the team provides, along with descriptions on why the exercise is important, and how to perform them. 
+This helps the guests determine if the team provides the type of training which helps their needs.
+
+JP:
+Workoutsページでは、チームが教えるトレーニングを紹介しております。
+このページを見ることによって、ゲストは自分の求めているトレーニングや結果を提供して頂けるかを判断することができます。
+
+
