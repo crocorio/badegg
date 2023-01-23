@@ -45,16 +45,7 @@ color: red;
 
 /**/
 
-/*workouts*/
 
-.workoutdesu {
-  justify-content: center;
-  margin-left: 300px;
-  margin-top: 100px;
-  font-size: large;
-}
-
-/**/
 
 /*credit card */
 
@@ -124,7 +115,7 @@ color: red;
   height: 120px;
   padding: 20px;
   border-radius: 0 0 5px 5px;
-  background-color: yellow;
+  background-color: lavenderblush;
 }
 
 .service-text__main {
@@ -136,4 +127,48 @@ color: red;
   margin-top: 14px;
   font-size: 14px;
   line-height: 17px
+}
+
+
+
+
+/*workout page*/
+
+.workout-items {
+  display: flex;
+  justify-content: center;
+  padding: 0 100px 180px;
+}
+
+.workout-item {
+  width: 600px;
+  height: 420px;
+}
+
+.workout-image {
+  width: 350px;
+  height: 275px;
+}
+
+.workout-text {
+  width: 100%;
+  height: 250px;
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+  background-color: aquamarine;
+}
+
+.workout-text__main {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.workout-text__sub {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 17px
+}
+
+.video-content {
+  width: 600px; 
 }
