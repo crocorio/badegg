@@ -114,9 +114,21 @@ itemsテーブルには、ゲストが商品を購入するか判断するため
 The orders table requires the item.id. This is because products can be purchased without a customer logging in. The reason for this is because the main purpose of the website is to promote the fitness team, and products being sold are treated as an additional function. 
 Also, in our daily life there are many occasions where you would come across a product that you are interested in, yet choose not to purchase it when asked to sign up an account. 
 
+Products can be purchased with a credit card. The dummy credit card is;
+credit card number: 4242424242424242
+exp date: any date in the future 
+card cvc: 123 
+
+
 JP:
 
 ordersテーブルにはitem.idが必要となります。ゲストが商品を購入する際にログインする必要はないためです。ウェブサイトの主な役割はクラブの紹介のためであり、商品を出品する理由はゲストとチームの間に一体感を作るためであるからです。また、日常の中でもウェブ上で購入したい商品を発見した際に、購入手続きに新規登録が求められるケースが多く、そのため購入を断念することが多いと考えたからです。
+
+商品はクレジットカードで購入できる仕様です。ダミーカード情報は以下となります：
+カード番号：4242424242424242　
+有効期限：未来の日付
+カードcvc：123
+
 
 
 
