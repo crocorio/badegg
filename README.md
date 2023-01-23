@@ -12,8 +12,10 @@ All logos and t shirt designs are designed by myself, and do not conflict with c
 
 This app/website is currently in the process of being created, and several functions are planned to be implemented. These consist of:
 
-A function that allows the admin user full control of the website (mainly for managing merchandise)
-A function that allows multiple images to be uploaded (so that front and back images of the merchandise can be promoted)
+A function that allows the admin user full control of the website (mainly for managing merchandise).
+A function that allows multiple images to be uploaded (so that front and back images of the merchandise can be promoted).
+Due to the behavior of the render database, images that are uploaded in the production environment will be displayed as blank after a short period. By implementing S3, images which are uploaded to the website will remain visible. 
+
 
 Because I would like the foundation of the website to be created first, these functions are not prioritized at the moment.  
 
