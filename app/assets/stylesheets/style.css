@@ -83,6 +83,7 @@ color: red;
 
 
 
+
 .thestaff {
   width: 1366px;
 }
@@ -150,6 +151,8 @@ color: red;
   height: 275px;
 }
 
+
+
 .workout-text {
   width: 100%;
   height: 250px;
@@ -171,4 +174,9 @@ color: red;
 
 .video-content {
   width: 600px; 
+}
+
+.video-content2 {
+  width: 500px; 
+  height: 300px;
 }
