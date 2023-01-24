@@ -37,6 +37,15 @@
   color: white;
 }
 
+.indexy {
+  background-image: url("gold.png");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+  
+ }
+
 /* staff login classes*/
 
 .user_warning {
