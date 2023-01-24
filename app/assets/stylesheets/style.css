@@ -73,12 +73,14 @@ color: red;
   font-size: 64px;
   font-weight: 600;
   text-align: center;
+  color: lightgoldenrodyellow;
 }
 
 .page-title__sub {
   font-size: 24px;
   font-weight: 600;
   text-align: center;
+  color: lightgoldenrodyellow;
 }
 
 
@@ -130,8 +132,19 @@ color: red;
   line-height: 17px
 }
 
+.abouty {
+  background-image: url("pinklogo.png");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+  height: 500px;
+ }
 
-
+ footer {
+  position:absolute;
+  width: 100%;
+  }
 
 /*workout page*/
 
