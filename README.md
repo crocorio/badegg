@@ -14,7 +14,7 @@ This app/website is currently in the process of being created, and several funct
 
 1. A function that allows the admin user full control of the website (mainly for managing merchandise).
 2. A function that allows multiple images to be uploaded (so that front and back images of the merchandise can be promoted).
-3. Due to the behavior of the render database, images that are uploaded in the production environment will be displayed as blank after a short period. By implementing S3, images which are uploaded to the website will remain visible. 
+
 
 
 Because I would like the foundation of the website to be created first, these functions are not prioritized at the moment.  
@@ -34,7 +34,7 @@ Bad Egg Training Teamへようこそ！
 このサイトは只今制作中でございます。今後、以下の実装を行う予定でございます。
 1. 管理者のみへウェブサイトの権限を与える実装（出品商品を安全に管理するため）
 2. 複数の画像を投稿できる実装（出品商品の前、後ろ、着用イメージを投稿するため） 
-3. Renderの挙動により、本番環境で投稿された画像は時間が経過すると消える仕様になっております。S3を実装することによって、画像が消える問題を解消できます。
+
 
 ウェブサイトの土台を先に完成させるため、以上の実装は優先していません。
 
