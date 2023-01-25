@@ -214,3 +214,17 @@ color: red;
   object-fit: cover;
   
 }
+
+.wrk {
+  background-image: url("eggy.png");
+  background-color: #cccccc;
+  background-repeat: repeat;
+  
+  height: 500px;
+ }
+
+
+ .wrkname {
+  font-size: 40px;
+  color: magenta;
+ }
