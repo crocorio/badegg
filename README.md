@@ -52,12 +52,22 @@ Unless staff members increase, and a scenario where several staff accounts shoul
 
 However, a function where the admin user has control over all functions is currently in the process of being implemented as a superior solution. 
 
+The current user account to create merchandise is 
+email: rio@gmail.com
+password: hakoniwa
+
+
 JP:
 usersテーブルにはemailとpasswordが求められます。
 ログインするのはサイト管理者であり、他の方がログインしないためです。
 スタッフの数が増え、複数のスタッフアカウントが必要となる状況とならない限りは、一つのアカウントで管理した方が良いと思ったためです。
 
 ただし、より良い解決策として管理者のみがログイン、新規登録できる仕様を実装中でございます。
+
+商品出品用のアカウントは以下となります。
+メールアドレス：rio@gmail.com
+パスワード：hakoniwa
+
 
 
 
