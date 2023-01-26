@@ -187,14 +187,14 @@ html {
   background-image: url("eggy.png");
   background-color: #cccccc;
   background-repeat: repeat;
-  
   height: 500px;
+  background-blend-mode: lighten;
  }
 
 
  .wrkname {
   font-size: 40px;
-  color: magenta;
+  color: black;
  }
 
 
