@@ -201,19 +201,11 @@ color: red;
 
 .video-content {
   width: 600px; 
-}
-
-.video-content2 {
-  width: 500px; 
-  height: 300px;
-}
-
-.video-content3 {
-  width: 600px; 
   height: 300px;
   object-fit: cover;
-  
 }
+
+
 
 .wrk {
   background-image: url("eggy.png");

@@ -1,23 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<body class="indexy">
-<div>
-<%= image_tag("logos/silverlogo.png", :width => '100%', :height => '400') %></div>
+</head>
+<body>
 
-<div class= "intro">
-<div class= "hero">
-<%= image_tag("colorfull.png", class: "hero-image") %>
-<div class= "hero-items">
-<div class="hero-text">
-            <div class="hero-text__main">Join us at the Bad Egg Training Team!</div>
-            <div class="hero-text__sub">
-            Training is a journey. <br>
-            As you continue to make progress, whether in strength, stamina, hypertrophy, bulking, or cutting, this journey rewards you with the satisfaction of obtaining your goals and reaching points that were out of grasp. <br>
-            Though like any other journey, there are obstacles. Some plateau during their programs. There may be times when progress would not be noticeable for weeks, and sometimes months. That extra 4kgs may seem like it’s fused on your bones. Yes, training can also be a frustrating journey as well. <br>
-            Here at the Bad Egg Training Team, we provide a community that will venture with you through your training path. Every path is easier to walk with someone. Join our team and let’s walk the path towards your goals together! 
+<!-- Navbar (sit on top) -->
 
-              </div>
-          </div>
-            </div>
-            </div>
-            </div>
-            </body>
+<!-- Header -->
+<header class="w3-stretch" style="max-width:1600px;min-width:500px" id="home">
+  <%= image_tag("logos/silverlogo_negate.png", class: "w3-image", style: 'height:600px; width:2000px;' ) %>
+  <div class=" w3-padding-large w3-opacity">
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <%= image_tag("shirts.png", class: "w3-round w3-image w3-opacity-min", style: 'height:750px; width:600px;') %>
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About the team</h1><br>
+      <h5 class="w3-center">Training since 1993</h5>
+      <p class="w3-large"> Training is a journey. <br>
+            As you continue to make progress, whether in strength, stamina, hypertrophy, bulking, or cutting, this journey rewards you with the satisfaction of obtaining your goals and reaching points that were out of grasp. 
+            Though like any other journey, there are obstacles. Some plateau during their programs. There may be times when progress would not be noticeable for weeks, and sometimes months. That extra 4kgs may seem like it’s fused on your bones. Yes, training can also be a frustrating journey as well. </p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Here at the Bad Egg Training Team, we provide a community that will venture with you through your training path. Every path is easier to walk with someone. Join our team and let’s walk the path towards your goals together! </p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Main exercises</h1><br>
+      <h4>Tricep training</h4>
+      <p class="w3-text-grey">Did you know that the tricep takes up ⅔ of the arm? </p><br>
+    
+      <h4>Neck Training</h4>
+      <p class="w3-text-grey">There’s nothing quite alpha like a thick and strong neck. </p><br>
+    
+      <h4>Party tricks exercises</h4>
+      <p class="w3-text-grey">A wild party trick is always cool to have in your arsenal. </p><br>
+    
+      <h4>Pull strength</h4>
+      <p class="w3-text-grey">It’s not so much the biceps that should be trained, but more the pull movement. </p><br>
+    
+      <h4>Full body control</h4>
+      <p class="w3-text-grey">Bodyweight exercises that range from climbing, hiking, running, and jumping. 
+     </p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <%= video_tag("/videos/neck.mp4", autoplay: :true, loop: :true, 
+           muted: :true, class: "w3-round w3-image w3-opacity-min", style: 'height:700px; width:600px;') %>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section , button tag removed for now-->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We offer free sessions and requests to meet your needs. We guarantee that our trainers will be able to meet your needs! Please feel free to contact us. 
+    </p>
+    <p class="w3-text-blue-grey w3-large"><b>Bad Egg Training Team, *****,  something something street</b></p>
+    <p>You can also contact us by phone 00553123-2323 or email badeggtrainingteam@gmail.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><div class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</div></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+
+
+</body>
+</html>
