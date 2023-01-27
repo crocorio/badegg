@@ -1,26 +1,40 @@
-<body class="wrk">
-<div class="wrkname">DBZ Saiyan curls</div>
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="w3-black">
 
-<div class="workout-items">
-<div class= "workout-item">
-          <div class=“workout-image”>
-            <%= video_tag("/videos/curls.mp4", autoplay: :true, loop: :true, 
+<div class="w3-display-container">
+  <%= video_tag("/videos/curls.mp4", autoplay: :true, loop: :true, 
 muted: :true, class: 'video-content') %>
+ 
+  <div class="w3-display-middle w3-large">
+    <h1 class="w3-jumbo w3-text-white w3-wide"><b></b></h1>
+  </div>
+   <div class="w3-display-bottomright w3-container">
+      <p class="w3-text-white w3-xlarge"></p>
+   </div>
+</div>
 
-          </div>
-          <div class="workout-text">
-            <div class="workout-text__main">
-              Seated dumbbell curls 
-            </div>
-            <div class="workout-text__sub"  >
-              SAIYAN PRIDE! <br>
-                The one exercise that trumps all, the one which is simple yet effective, <br>
-                the exercise from ancient times, the ultimate flex, THE CURL! <br>
-                One who conquers the curl conquers all! Bask in glory as everyone <br>
+<div class="w3-container w3-deep-orange w3-large w3-padding-16" style="margin-right:10%">
+  <p><span class="w3-xlarge">Seated dumbbell curls </span> </p>
+</div>
+<div class="w3-container w3-deep-purple w3-large w3-padding-16" style="margin-left:10%">
+  <p>SAIYAN PRIDE! <br> The one exercise that trumps all, the one which is simple yet effective, <br>
+                the exercise from ancient times, the ultimate flex, THE CURL!  <span class="w3-xlarge"></span></p>
+</div>
+
+<div style="width:50%">
+  <div class="w3-container w3-blue w3-large w3-padding-16">
+  <p><span class="w3-xlarge"></span> One who conquers the curl conquers all! Bask in glory as everyone <br>
                 admires your great mountains of might! 
-            </div>
-          </div>
-        </div>
+</p>
+  </div>
+  <div class="w3-display-container">
+    <%= image_tag("pinklogo.png", width: "100%",height: "500px")  %>
+  </div>
 </div>
-</div>
+
 </body>
+</html>
