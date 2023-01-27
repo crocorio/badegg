@@ -22,6 +22,12 @@ Because I would like the foundation of the website to be created first, these fu
 This website is created in English, because I wish to utilize my English skills in the field. (Working in an English environment, abroad, etc.)
 
 
+## Admin ID and password
+ID: admin
+password: 2222
+
+
+
 JP: 
 Bad Egg Training Teamへようこそ！
 
@@ -41,7 +47,9 @@ Bad Egg Training Teamへようこそ！
 このウェブサイトは英語で制作されております。自分の英語力を現場で活かしたいと思うためです（英語環境で働く、海外で働くなど）  
 
 
-
+## Admin IDとパスワード
+ID: admin
+password: 2222
 
 
 ## users table
