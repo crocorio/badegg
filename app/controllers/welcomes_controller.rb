@@ -18,5 +18,8 @@ class WelcomesController < ApplicationController
   def dip 
   end 
 
+  def bulk
+  end
+  
 
 end

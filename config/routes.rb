@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get "welcomes/curl"
   get "welcomes/dips"
   get "orders/bought"
+  get "welcomes/bulk"
 
   
 

@@ -57,10 +57,35 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Nutriton
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="dropdown-item">
+        <%= link_to "Bulking up", welcomes_bulk_path %>
+          </li>
+          <li class="dropdown-item">
+        <%= link_to "Shredding down", welcomes_neck_path %>
+          </li>
+          <li class="dropdown-item">
+        <%= link_to "Maintenance ", welcomes_curl_path %>
+          </li>
+          <li class="dropdown-item">
+        <%= link_to "Gut health is everything health", welcomes_dips_path %>
+          </li>
+            
+            
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
         </li>
+        
+        
       </ul>
+
+      
 
       
       <form class="d-flex">
