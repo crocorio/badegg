@@ -21,5 +21,7 @@ class WelcomesController < ApplicationController
   def bulk
   end
   
+  def cutting
+  end 
 
 end
