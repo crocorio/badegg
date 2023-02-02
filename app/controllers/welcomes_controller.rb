@@ -24,4 +24,7 @@ class WelcomesController < ApplicationController
   def cutting
   end 
 
+  def health
+  end 
+
 end

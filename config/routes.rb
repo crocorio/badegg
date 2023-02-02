@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get "orders/bought"
   get "welcomes/bulk"
   get "welcomes/cutting"
+  get "welcomes/health"
 
   
 
