@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   get "welcomes/cutting"
   get "welcomes/health"
 
+  get "japans/jpindex"
+
   
 
   resources :items do
