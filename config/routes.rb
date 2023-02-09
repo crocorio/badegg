@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   get "welcomes/health"
 
   get "japans/jpindex"
-
+  get "japans/jpabout"
   
 
   resources :items do
