@@ -1,6 +1,8 @@
 class ItemsController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create, :edit, :update]
   before_action :set_item, only: [:show, :edit, :update, :destroy]
+  before_action :move_to_index, only: [:edit, :update]
+  
   def index
     @items = Item.all.order('id DESC')
   end
@@ -47,6 +49,9 @@ class ItemsController < ApplicationController
                                 :shipping_cost_id, :shipping_date_id, :price).merge(user_id: current_user.id)
   end
 
+  def move_to_index
+    redirect_to action: :index unless current_user.id == @item.user_id && @item.order.nil?
+  end
   
   def set_item
     @item = Item.find(params[:id])
