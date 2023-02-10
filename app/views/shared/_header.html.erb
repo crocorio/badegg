@@ -24,12 +24,14 @@
         <%= link_to "Edit profile", edit_user_registration_path, class: "nav-link" %>
           </li>
           <% else %>
+          <% if current_page?(root_path)%>
           <li class="nav-item">
         <%= link_to "New staff sign up", new_user_registration_path, class: "nav-link" %>
           </li>
           <li class="nav-item">
         <%= link_to "Staff sign in", new_user_session_path, class: "nav-link" %>
           </li>
+          <% end %>
           <% end %>
           
 

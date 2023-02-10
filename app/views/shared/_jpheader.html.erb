@@ -24,12 +24,14 @@
         <%= link_to "アカウント編集", edit_user_registration_path, class: "nav-link" %>
           </li>
           <% else %>
+          <% if current_page?(japans_jpindex_path)%>
           <li class="nav-item">
         <%= link_to "新規スタッフサインアップ", new_user_registration_path, class: "nav-link" %>
           </li>
           <li class="nav-item">
         <%= link_to "スタッフサインイン", new_user_session_path, class: "nav-link" %>
           </li>
+          <% end %>
           <% end %>
           
 
