@@ -7,6 +7,27 @@ class JapansController < ApplicationController
   def jpabout
   end
 
+  def jppushup
+  end
+
+  def jpneck
+  end 
+
+  def jpcurl
+  end 
+
+  def jpdip
+  end 
+
+  def jpbulk
+  end 
+
+  
+  
+  
+
+
+
   
 
 end

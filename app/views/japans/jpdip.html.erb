@@ -1,0 +1,42 @@
+<%= render "shared/jpheader"%>
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="w3-black">
+
+<div class="w3-display-container">
+  <%= video_tag("/videos/dips.mp4", autoplay: :true, loop: :true, 
+muted: :true, width: "100%", height: "550px") %>
+  <div class="w3-display-middle w3-large">
+    <h1 class="w3-jumbo w3-text-white w3-wide"><b></b></h1>
+  </div>
+   <div class="w3-display-bottomright w3-container">
+      <p class="w3-text-white w3-xlarge"></p>
+   </div>
+</div>
+
+<div class="w3-container w3-deep-orange w3-large w3-padding-16" style="margin-right:10%">
+  <p><span class="w3-xlarge">高重量ディプス</span> </p>
+</div>
+<div class="w3-container w3-deep-purple w3-large w3-padding-16" style="margin-left:10%">
+  <p> ベンチプレスが強い人はたくさんいます。もちろんすごくはありますが、よくあることです。 <br>
+              強者の多いフィールドで目立つことは難しいです。体重も大きく関係してきます。より大きいものが強い、そういう世界となってきます。 <br>
+ <br><span class="w3-xlarge"></span></p>
+</div>
+
+<div style="width:50%">
+  <div class="w3-container w3-blue w3-large w3-padding-16">
+  <p><span class="w3-xlarge"></span>反面、重りつきのディプスは独特なフィールドです。
+自重の半分以上を腰から吊るしたままディプスをこなしている人間をどれくらい見てきましたか？さほどいないでしょう。<br>
+強靭な三頭を作り上げ、誰もこなすことのできない領域へ踏み入れよう！ 
+ </p>
+  </div>
+  <div class="w3-display-container">
+    <%= image_tag("pinklogo.png", width: "100%",height: "500px")  %>
+  </div>
+</div>
+
+</body>
+</html>

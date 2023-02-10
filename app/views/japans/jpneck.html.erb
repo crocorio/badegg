@@ -1,0 +1,39 @@
+<%= render "shared/jpheader"%>
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="w3-black">
+
+<div class="w3-display-container">
+  <%= video_tag("/videos/neck2.mp4", autoplay: :true, loop: :true, 
+muted: :true, width: "100%", height: "550px") %>
+  <div class="w3-display-middle w3-large">
+    <h1 class="w3-jumbo w3-text-white w3-wide"><b></b></h1>
+  </div>
+   <div class="w3-display-bottomright w3-container">
+      <p class="w3-text-white w3-xlarge"></p>
+   </div>
+</div>
+
+<div class="w3-container w3-deep-orange w3-large w3-padding-16" style="margin-right:10%">
+  <p><span class="w3-xlarge">レスリングネックフリップ</span> </p>
+</div>
+<div class="w3-container w3-deep-purple w3-large w3-padding-16" style="margin-left:10%">
+  <p>お互い芸を披露していると、必ず被ってしまうものはありますよね。 <br>
+              側転、バク宙、後ろ回し蹴り、どれであっても自慢の一芸が相手と被ってしまうでしょう。それでは目立つことは難しいですね。
+              <span class="w3-xlarge"></span></p>
+</div>
+
+<div style="width:50%">
+  <div class="w3-container w3-blue w3-large w3-padding-16">
+  <p><span class="w3-xlarge"></span> ですが、首を駆使したものは見たことありますか？<br>滅多にお目にかかれないでしょう。</p>
+  </div>
+  <div class="w3-display-container">
+    <%= image_tag("pinklogo.png", width: "100%",height: "500px")  %>
+  </div>
+</div>
+
+</body>
+</html>
