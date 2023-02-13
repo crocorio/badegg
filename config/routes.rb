@@ -19,6 +19,7 @@ Rails.application.routes.draw do
   get "japans/jpcurl"
   get "japans/jpdip"
   get "japans/jpbulk"
+  get "japans/jpcutting"
 
   resources :items do
 

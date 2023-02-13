@@ -22,6 +22,9 @@ class JapansController < ApplicationController
   def jpbulk
   end 
 
+ def jpcutting
+ end 
+
   
   
   
