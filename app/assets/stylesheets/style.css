@@ -92,14 +92,12 @@ html {
 }
 
  footer {
- 
-  width: 100%;
-  
-  
-  }
+  width: 100vw;
+}
 
-
-  
+.navbar{
+  width: 100vw; 
+}
 
   
 /*workout page*/
