@@ -25,7 +25,8 @@ class JapansController < ApplicationController
  def jpcutting
  end 
 
-  
+  def jphealth
+  end 
   
   
 

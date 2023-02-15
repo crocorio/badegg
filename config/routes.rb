@@ -20,6 +20,7 @@ Rails.application.routes.draw do
   get "japans/jpdip"
   get "japans/jpbulk"
   get "japans/jpcutting"
+  get "japans/jphealth"
 
   resources :items do
 
