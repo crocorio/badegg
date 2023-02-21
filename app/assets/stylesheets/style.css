@@ -5,7 +5,9 @@
   margin-left: 1350px;
   
 }
-
+ .card {
+  width: 100vw;
+ }
 
 /* staff login classes*/
 
