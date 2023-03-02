@@ -197,19 +197,28 @@ destinationテーブルには商品をゲストへお届けするための項目
 ## About us page 
 
 The about us page serves as the staff introduction page. On this page, guests can view the various trainers the team has, and what their attributes are. This helps guests who are searching for a fitness community to determine if the team provides what they are looking for.
+A large part of training in a community depends on whom you train with. If one, or some of the trainers can provide what the guests need, this can help them achieve their goals. 
+
+
 
 JP:
 About usページでは、スタッフの紹介を見ることができます。
 スタッフそれぞれのバックグランドを紹介するためのページです。
 どのようなトレーナーがいて、ゲストが求めているものを提供できるかを判断することができます。
+コミュニティの一員としてトレーニングするにおいては、誰とトレーニングを共にするかが 大きな要素となります。ゲストの要望に応えられるトレーナーが一人、または二人存在する場合は、ゲストのゴール達成へ大きく貢献できます。
+
 
 ## Workouts page 
 
 The workouts page has listed some unique exercises the team provides, along with descriptions on why the exercise is important, and how to perform them. 
 This helps the guests determine if the team provides the type of training which helps their needs.
+The page introduces exercises that the team excels at. By viewing them, guests can form an idea of what they want to achieve. The content of the workouts are written comedically, so that the guests are not intimidated, and get a feel of the vibe our team offers.  
 
 JP:
 Workoutsページでは、チームが教えるトレーニングを紹介しております。
 このページを見ることによって、ゲストは自分の求めているトレーニングや結果を提供して頂けるかを判断することができます。
+このページではチームが得意としている運動を紹介します。これらを拝見することによって、ゲスト自身のフィットネスゴールを抱きやすくなっております。運動内容はユーモアを含んだ記載となっており、チーム全体の雰囲気をゲストへ伝えております。
 
+
+## Nutrition page
 
