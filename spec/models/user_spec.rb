@@ -31,7 +31,17 @@ context 'When the user cannot ce created' do
     another_user.valid?
     expect(another_user.errors.full_messages).to include("Email has already been taken")
   end
-
-
+  it 'The password cannot be blank' do
+    @user.password = ''
+    @user.valid?
+    expect(@user.errors.full_messages).to include("Password can't be blank")
+  end
+  it 'The password confirmation must be the same as the password' do
+    @user.password = 'hakoniwa'
+    @user.password_confirmation = "makoniwa"
+    @user.valid?
+    expect(@user.errors.full_messages).to include("Password confirmation doesn't match Password")
+  end
+  
 end 
 end 
