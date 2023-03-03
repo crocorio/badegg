@@ -222,3 +222,7 @@ Workoutsページでは、チームが教えるトレーニングを紹介して
 
 ## Nutrition page
 
+Everyone has their own specific fitness goals, and with these goals come specific nutrition plans. The Nutrition page includes information on what foods you should eat to achieve said specific goals. If you want to put on muscle mass, the “Bulking Up” page provides an example for foods that help increase muscle mass while avoiding gaining unwanted fat. If you are looking to cut weight, the “Shredding down” page provides a recipe to cut back on calories, without eating something bland like a bowl of salad or dry chicken breast. The “Gut health is everything health” page provides foods that help with your gut health and digestion. These pages give the guests/users a good idea of what kind of advice the team can provide, along with what knowledge they hold. 
+
+JP: 
+人はそれぞれ各々のフィットネスゴールを持っており、それらを達成するには食事管理が必要となってきます。「栄養管理」欄にはそれぞれのゴールを達成するための食事管理の情報が記載されております。筋肉量を増やした場合は「バルクアップ」ページをご覧に頂けますと、筋肉量を増やしつつ余分な脂肪を避ける方法が記載されております。体重を減らすことが目的なら、「減量」ページをご覧になると美味しくカロリーを削減する方法が記載されております。「腸内環境が全て」ページには腸内環境と消化をサポートしてくれる食材の情報が記載されております。それぞれのページを拝見することでゲストはチームが提供するアドバイスや持っている知識を把握することができます。
