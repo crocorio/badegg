@@ -226,3 +226,16 @@ Everyone has their own specific fitness goals, and with these goals come specifi
 
 JP: 
 人はそれぞれ各々のフィットネスゴールを持っており、それらを達成するには食事管理が必要となってきます。「栄養管理」欄にはそれぞれのゴールを達成するための食事管理の情報が記載されております。筋肉量を増やした場合は「バルクアップ」ページをご覧に頂けますと、筋肉量を増やしつつ余分な脂肪を避ける方法が記載されております。体重を減らすことが目的なら、「減量」ページをご覧になると美味しくカロリーを削減する方法が記載されております。「腸内環境が全て」ページには腸内環境と消化をサポートしてくれる食材の情報が記載されております。それぞれのページを拝見することでゲストはチームが提供するアドバイスや持っている知識を把握することができます。
+
+
+## Japanese and English versions of the website
+
+There are both English and Japanese versions of the website. 
+This helps users from both English and Japanese speaking countries look for information regarding the team. Instead of having the “language button”connect to a separate website link, I have coded it so that the index page is changed from one language view to another. The header which includes all the links to the remaining pages is also changed, allowing the user to access all pages in their preferred languages. 
+At the moment, the item purchase page remains in English. This is due to currently studying how PJP would work if multiple pages are created. 
+
+
+JP:
+本サイトには英語・日本語へ言語を切り替える機能がございます。
+この機能によって、ユーザ各々が希望されている言語でサイトを拝見できるようになっております。「言語切り替えボタン」を別のサイトへのリンクとつなげるのではなく、別言語のindexページに遷移する様に設定しております。それぞれのindexのヘッダーには各ページへのリンクがあり、ユーザーの希望する言語で拝見できるようになっております。
+現時点では「商品購入ページ」は英語です。Pay JPが複数ページで使用される仕様を勉強中であるためです。
